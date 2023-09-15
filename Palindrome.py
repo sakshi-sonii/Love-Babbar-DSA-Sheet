@@ -3,7 +3,7 @@
 # Which will return 1 if all the elements of the Array are palindrome otherwise it will return 0.
 
 def PalinArray(arr ,n):
-    # Code here
+    
     for i in arr:
         num = str(i)
         num1 = num[::-1]
